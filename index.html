@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario de contacto</title>
+</head>
+
+
+<body>  
+  
+  <div class="contact_form">
+    <div class="formulario">      
+      <h1 class="titulo">Formulario de contacto</h1>
+        <form>
+            <p>
+                <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                </label>
+                <input type="text" name="introduzca_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+            </p>
+            <p>
+                <label for="apellido" class="colocar_apellido">Apellido
+                    <span class="obligatorio">*</span>
+                </label>
+                <input type="text" name="introduzca_apellido" id="apellido" required="obligatorio" placeholder="Escribe tu apellido">
+            </p>
+            <p>
+                <label for="edad" class="colocar_edad">Edad
+                </label>
+                <input type="text" name="introduzca_edad" id="edad" required="obligatorio" placeholder="Escribe tu edad">
+            </p>
+            <p>
+                <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                </label>
+                <input type="email" name="introduzca_email" id="email" required="obligatorio" placeholder="Escribe tu correo">
+            </p>
+            <p>
+                <label for="telefono" class="colocar_Telefono">Telefono
+                    <span class="obligatorio">*</span>
+                </label>
+                <input type="tel" name="introduzca_telefono" id="telefono" required="obligatorio" placeholder="Escribe tu numero de telefono">
+            </p>
+            <p>
+                <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                </label>
+                <textarea class="cuadro" name="introduzca_mensaje" id="mensaje" rows="20" cols="40" required="obligatorio" placeholder="Deja aquí tu comentario"></textarea>          
+            </p>
+            <p class="aviso">
+                <span class="obligatorio"> * </span>los campos son obligatorios.
+            </p>
+            <input class="boton" type="submit" value="Enviar">
+        </form>
+    </div>  
+  </div>
+    <footer class="creditos"><br>
+    <p>
+        Pagina realizada por Esteban Urrego Oviedo. ©Todos los derechos reservados
+        2022.
+    </p>
+    </footer>
+</body>
+</html>
